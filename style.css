@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-shadow: 0px 0px 8px white;
+}
+
+.main{
+    width: 350px;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtz-u4ahsdWs9hz94jbDwebgl6IM8l3Ckcdg&s); 
+    margin-top: 120px;
+    border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    box-shadow: 0px 0px 15px #cdcdcd;
+}
+
+.res{
+    font-size: 45px;
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    top: 145px;
+    left: 590px;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.plus{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(12, 196, 156);
+    box-shadow: 2px 2px 2px teal;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.minus{
+    width: 70px;
+    margin-top: 10px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(12, 196, 156);
+    box-shadow: 2px 2px 2px teal;
+    border: none;
+    margin-left: 20px;
+}
+
+.ravno{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(12, 196, 156);
+    box-shadow: 2px 2px 2px teal;
+    border: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.one{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.two{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+
+.three{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.four{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.five{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.six{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.seven{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.eight{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.nine{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
+.zero{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(77, 29, 141);
+    box-shadow: 2px 2px 2px rgb(78, 30, 151);
+    border: none;
+    margin-left: 20px;
+}
+
